@@ -32,3 +32,19 @@
 # age = cat.get("age")
 # cat.update(info)
 # print(cat)
+
+
+# 1 modul 1 leson3
+#a = 2.2
+#print(type(a))
+
+# a = None
+# print(type(a))
+# <class 'NoneType'>
+
+#____a = 4
+#print(a )
+
+# a = input("chislo : ")
+# b = input("chislo : ")
+# print(f"sum {int(a)+int(b)}")
