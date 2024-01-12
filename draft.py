@@ -188,10 +188,20 @@
 #         result = "It is zero"
 # print(result)
 
-num = int(input("Enter the integer (0 to 100): "))
-sum = 0
+# num = int(input("Enter the integer (0 to 100): "))
+# sum = 0
 
-while num >= 0 
+# while num >= 0:
+#     sum = sum + num
+#     num = num - 1    
+# print(sum)
 
-    
+message = "Never argue with stupid people, they will drag you down to\
+            their level and then beat you with experience."
+search = "r"
+result = 0
+for chair in message:
+    if chair == search:
+    result = result + 1
+print(result)
     
