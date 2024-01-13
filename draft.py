@@ -205,10 +205,45 @@
 #         result = result + 1
 # print(result)
   
-pool = 1000
-quantity = int(input("Enter the number of mailings: "))
-try:
-       
-except ZeroDivisionError:
-        print('Divide by zero completed!')   
+# pool = 1000
+# quantity = int(input("Enter the number of mailings: "))
+# try:
+#     chunk = pool / quantity  
+#     chunk = int(chunk)
+# except ZeroDivisionError:
+#         print('Delenie na nol!')   
+# else:
+#      print(chunk)
+# val = 'a'
+# try:
+#     val = int(val)
+# except ValueError:
+#     print(f"val {val} is not a number")
+# else:
+#     print(val > 0)
+# finally:
+#     print("This will be printed anyway") 
 
+# age = input("How old are you? ")
+# try:
+#     age = int(age)
+#     if age >= 18:
+#         print("You are adult.")
+#     else:
+#         print("You are infant")
+# except ValueError:
+#     print(f"{age} is not a number")
+
+# def greeting():
+#         print('"Hello world"')
+# greeting()
+
+# def invite_to_event(username):
+#     username = input("Vvedite imya : ")
+#     return username
+#     print(f"Dear {username}, we have the honour to invite you to our event")              
+# invite_to_event()
+def invite_to_event(username):
+    print(f"Dear {username}, we have the honour to invite you to our event") 
+    return username
+invite_to_event(username= input("vvedite imya : "))
