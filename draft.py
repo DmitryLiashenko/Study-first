@@ -278,12 +278,27 @@
 #         return string.append(((length - len(string)) // 2) * " ")         
 
              
-def format_string(string, length):
-    if len(string) < length:
-        return " " * (length - len(string)) // 2 + string
-    if len(string) >= length:
-        return string
+# def format_string(string, length):
+#     if len(string) < length:
+#         return " " * (length - len(string)) // 2 + string
+#     if len(string) >= length:
+#         return string
         
-        
+# def factorial(n):
+#     if n < 2:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+
+# def number_of_groups(n, k):
+#     chislo_spiskov = factorial(n)/(factorial(n-k)*factorial(k))
+#     return chislo_spiskov
+
+
+    
+    
+    
+    
 
         
