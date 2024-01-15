@@ -243,7 +243,47 @@
 #     return username
 #     print(f"Dear {username}, we have the honour to invite you to our event")              
 # invite_to_event()
-def invite_to_event(username):
-    print(f"Dear {username}, we have the honour to invite you to our event") 
-    return username
-invite_to_event(username= input("vvedite imya : "))
+
+# def invite_to_event(username):
+#     print(f"Dear {username}, we have the honour to invite you to our event") 
+#     return username
+# invite_to_event(username = input("vvedite imya : "))
+
+# def discount_price(price, discount):
+#     def apply_discount():
+#         nonlocal price
+#         price = price*(1-discount)
+#         return price
+#     apply_discount()
+#     return price
+# def get_fullname(first_name, last_name, middle_name = ""):
+#     first_name = input(f'Vvedite first_name : ')
+#     last_name = input(f'Vvedite last_name : ')
+#     middle_name = input(f'Vvedite middle_name : ')
+#     if middle_name != "":
+#         return f'{first_name}, {last_name}, {middle_name}'
+#     else:
+#         return f'{first_name}, {last_name}' 
+
+# def get_fullname(first_name, last_name, middle_name = ""):
+#     if middle_name == "":
+#         return f'{first_name} {last_name}' 
+#     else:
+#         return f'{first_name} {middle_name} {last_name}'   
+
+# def format_string(string, length):
+#     if len(string) >= length:
+#         return string
+#     if len(string) < length:
+#         return string.append(((length - len(string)) // 2) * " ")         
+
+             
+def format_string(string, length):
+    if len(string) < length:
+        return " " * (length - len(string)) // 2 + string
+    if len(string) >= length:
+        return string
+        
+        
+
+        
