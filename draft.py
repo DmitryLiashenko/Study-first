@@ -293,12 +293,82 @@
 
 # def number_of_groups(n, k):
 #     chislo_spiskov = factorial(n)/(factorial(n-k)*factorial(k))
-#     return chislo_spiskov
+#     return int(chislo_spiskov)
+
+# a = int(input("chislo a :"))
+# # b = int(input("chislo b :"))
+# if b!=0:
+#     print(f'a\b = {a/b}')
+# else:
+#     print("divizion by zero")
+
+                                 #2 modul 1 lesons
 
 
+
+
+
+
+
+
+
+
+
+
+
+                                #3 modul 1 lesons
+
+
+# from datetime import datetime
+
+# # Встановлення дати спалення Москви Наполеоном (14 вересня 1812 року)
+# napoleon_burns_moscow = datetime(year=1812, month=9, day=14)
+
+# # Поточна дата
+# current_date = datetime.now()
+
+# # Розрахунок кількості днів
+# days_since = current_date.toordinal() - napoleon_burns_moscow.toordinal()
+# print(days_since)
+
+# from datetime import datetime
+
+# now = datetime.now()
+
+# # Форматування дати і часу
+# formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
+# print(formatted_date) 
+
+# # Форматування лише дати
+# formatted_date_only = now.strftime("%A, %d %B %Y")
+# print(formatted_date_only)
+
+# # Форматування лише часу
+# formatted_time_only = now.strftime("%I:%M %p")
+# print(formatted_time_only)  
+
+# # Форматування лише дати
+# formatted_date_only = now.strftime("%d.%m.%Y")
+# print(formatted_date_only)
+
+# from datetime import datetime
+
+# # Припустимо, у нас є дата у вигляді рядка
+# date_string = "2023.03.14"
+
+# # Перетворення рядка в об'єкт datetime
+# datetime_object = datetime.strptime(date_string, "%Y.%m.%d")
+# print(datetime_object)  # Виведе об'єкт datetime, що відповідає вказаній даті та часу
     
     
-    
-    
+# from datetime import datetime, timezone
+
+# local_now = datetime.now()
+# utc_now = datetime.now(timezone.utc)
+
+# print(local_now)
+# print(utc_now)  # Виведе поточний час в UTC
+
+
 
         
