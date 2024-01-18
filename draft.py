@@ -302,7 +302,9 @@
 # else:
 #     print("divizion by zero")
 
-                                 #2 modul 1 lesons
+                                 #2 modul 1 leson + 2 lesson
+
+
 
 
 
@@ -332,12 +334,15 @@
 # print(days_since)
 
 # from datetime import datetime
+# import time
 
 # now = datetime.now()
 
 # # Форматування дати і часу
 # formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
 # print(formatted_date) 
+
+# time.sleep(5)
 
 # # Форматування лише дати
 # formatted_date_only = now.strftime("%A, %d %B %Y")
@@ -369,6 +374,20 @@
 # print(local_now)
 # print(utc_now)  # Виведе поточний час в UTC
 
+import time
 
+# Записуємо час на початку виконання
+start_time = time.perf_counter()
+
+#  Виконуємо якусь операцію
+for _ in range(1_000_000):
+    pass  # Просто проходить цикл мільйон разів
+time.sleep(5)
+#  Записуємо час після виконання операції
+end_time = time.perf_counter()
+
+#  Розраховуємо та виводимо час виконання
+execution_time = end_time - start_time
+print(f"Час виконання: {execution_time} секунд")
 
         
