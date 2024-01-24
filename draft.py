@@ -374,20 +374,56 @@
 # print(local_now)
 # print(utc_now)  # Виведе поточний час в UTC
 
-import time
+# import time
 
-# Записуємо час на початку виконання
-start_time = time.perf_counter()
+# # Записуємо час на початку виконання
+# start_time = time.perf_counter()
 
-#  Виконуємо якусь операцію
-for _ in range(1_000_000):
-    pass  # Просто проходить цикл мільйон разів
-time.sleep(5)
-#  Записуємо час після виконання операції
-end_time = time.perf_counter()
+# #  Виконуємо якусь операцію
+# for _ in range(1_000_000):
+#     pass  # Просто проходить цикл мільйон разів
+# time.sleep(5)
+# #  Записуємо час після виконання операції
+# end_time = time.perf_counter()
 
-#  Розраховуємо та виводимо час виконання
-execution_time = end_time - start_time
-print(f"Час виконання: {execution_time} секунд")
+# #  Розраховуємо та виводимо час виконання
+# execution_time = end_time - start_time
+# print(f"Час виконання: {execution_time} секунд")
 
-        
+# import random
+# def kubik(a):
+# print(kubik(random.randint(1,6)))
+
+# import random
+
+# def kubik():
+#     dice_roll = random.randint(1, 6)
+#     print(f"Ви кинули {dice_roll}")
+# kubik()
+
+                                ################################# From Code to Def ##############
+# import random
+
+# fruits = ['apple', 'banana', 'orange']
+# print(random.choice(fruits))
+#                                   #############################
+# import random
+
+# def cjo(fruits = ['apple', 'banana', 'orange']):
+#     return print(random.choice(fruits))
+# cjo()
+
+                                    #########################
+# import random
+
+# def asd(participants = ['Анна', 'Богдан', 'Віктор', 'Галина', 'Дмитро', 'Олена', 'Женя', 'Зорян', 'Ігор', 'Йосип']):
+#     team = random.sample(participants, 4)
+#     return print(f"Команда: {team}")
+# asd()
+
+# def get_days_from_today(user_input = input("Input date: ")):
+#     date = datetime.strptime(user_input, "%Y-%M-%D")
+#     current_date = datetime.now()
+#     date1 = date - current_date
+# print(date1)    
+
